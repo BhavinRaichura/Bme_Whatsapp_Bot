@@ -53,3 +53,16 @@ def events_details():
     for i in eve.find():
         reply+=f"\n{i['subj']} \nLink: {i['link']} \n{i['deadline']}\n-----------------------"
     return reply
+
+def interns_details():
+    interns = db.tpo
+    for i in interns.find():
+        reply+=f"\n{i['subj']} \nLink: {i['link']} \n{i['deadline']}\n-----------------------"
+    return reply
+
+def new_updates_details():
+    newup = db.class_update
+    for i in newup.find():
+        reply+=f"\n{i['subj']}\n-----------------------"
+    return reply
+
