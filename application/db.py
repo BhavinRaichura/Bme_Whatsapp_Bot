@@ -47,3 +47,9 @@ def class_room_details():
     for i in clsrm.find():
         reply += f"\n{i['subj']}: {i['link']}"
     return reply
+
+def events_details():
+    eve = db.events
+    for i in eve.find():
+        reply+=f"\n{i['subj']} \nLink: {i['link']} \n{i['deadline']}\n-----------------------"
+    return reply
