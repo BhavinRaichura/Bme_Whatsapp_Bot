@@ -1,0 +1,23 @@
+<form action="{{url_for('dbform')}}" method="post">
+    <div class="mb-3">
+        <label for="std_name" class="form-label">Full name</label>
+        <input type="text" class="form-control" name="std_name" id="std_name" aria-describedby="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="rollno" class="form-label">Roll no</label>
+        <input type="number" class="form-control" name="rollno" id="rollno" aria-describedby="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="mobile" class="form-label">Mobile No</label>
+        <input type="tel" class="form-control" name="mobile" id="mobile" aria-describedby="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="oe" class="form-label">Open elective</label>
+        <input type="text" class="form-control" name="oe" id="oe" aria-describedby="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="name" required>
+    </div>
+    <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+</form>

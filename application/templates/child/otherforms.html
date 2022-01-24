@@ -1,0 +1,30 @@
+{% if page == "TPO"%}
+<form action="/tpo" method="post">
+    {% elif page == "Events"%}
+    <form action="/events" method="post">
+        {% elif page =="New update"%}
+        <form action="/new_update" method="post"></form>
+        {%endif%}
+
+        {%if page == "TPO" or page =="Events"%}
+        <div class="mb-3">
+            <label for="subj" class="form-label">Message</label>
+            <textarea class="form-control" name="subj" id="subj" aria-label="With textarea"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="deadline" class="form-label">Deadline</label>
+            <input type="date" class="form-control" name="deadline" id="deadline" aria-describedby="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="link" class="form-label">Link</label>
+            <input type="text" class="form-control" name="link" id="link" aria-describedby="name" required>
+        </div>
+        {%elif page=="New update"%}
+        <div class="mb-3">
+            <label for="subj" class="form-label">Message</label>
+            <textarea class="form-control" name="subj" id="subj" aria-label="With textarea"></textarea>
+        </div>
+        {%endif%}
+
+        <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+    </form>
