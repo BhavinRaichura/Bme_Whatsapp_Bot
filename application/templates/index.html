@@ -14,9 +14,9 @@
         </head>
         <body>
             <div class="root">
-                <h3>
-                    {{pagetitle}}
-                </h3>
+                <h1 class="text-secondary">
+                    Bot > <pagetitle class="text-primary">{{pagetitle}}</pagetitle>
+                </h1>
                 <hr>
                 {%if pagetitle == "New User"%}
                     {%include "/child/usersform.html"%}
