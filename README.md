@@ -36,14 +36,14 @@ basic knowledge of mongodb
 ## Server
 I use ngrok server. Server is required to connect Flask to Twilio.
 
-### ---------------------------------------------------------------------------------------------------------------------
+
 ## Installation
 ### git clone https://github.com/BhavinRaichura/Bme_Whatsapp_Bot
 ### cd Bme_Whatsapp_Bot
 ### . venv/bin/activate
 ### install requirements.txt
 ### flask run
+---------------------------make sure you includes all above reqirements before run------------------------------------------------------------------------------------------
 
-make sure you includes all above reqirements before run
 
 
