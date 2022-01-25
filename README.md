@@ -43,7 +43,7 @@ I use ngrok server. Server is required to connect Flask to Twilio.
 ### . venv/bin/activate
 ### install requirements.txt
 ### flask run
----------------------------make sure you includes all above reqirements before run----------------------------------
+---------------------------Make sure you have covered all of the above requirements before running----------------------------------
 
 
 
