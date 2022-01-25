@@ -1,12 +1,13 @@
-{% if page == "TPO"%}
-<form action="/tpo" method="post">
-    {% elif page == "Events"%}
-    <form action="/events" method="post">
-        {% elif page =="New update"%}
-        <form action="/new_update" method="post"></form>
+
+{% if pagetitle == "TPO"%}
+<form action="{{url_for('tpodb')}}" method="post">
+    {% elif pagetitle == "Events"%}
+    <form action="{{url_for('eventsdb')}}" method="post">
+        {% elif pagetitle =="New updates"%}
+        <form action="{{url_for('newupdatesdb')}}" method="post"></form>
         {%endif%}
 
-        {%if page == "TPO" or page =="Events"%}
+        {%if pagetitle == "TPO" or pagetitle =="Events"%}
         <div class="mb-3">
             <label for="subj" class="form-label">Message</label>
             <textarea class="form-control" name="subj" id="subj" aria-label="With textarea"></textarea>
@@ -19,7 +20,7 @@
             <label for="link" class="form-label">Link</label>
             <input type="text" class="form-control" name="link" id="link" aria-describedby="name" required>
         </div>
-        {%elif page=="New update"%}
+        {%elif pagetitle=="New Updates"%}
         <div class="mb-3">
             <label for="subj" class="form-label">Message</label>
             <textarea class="form-control" name="subj" id="subj" aria-label="With textarea"></textarea>
