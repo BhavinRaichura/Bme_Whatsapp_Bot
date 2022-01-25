@@ -18,7 +18,7 @@ flask basic
 create twilio account and get a whatsapp bot number
 put account_sid and auth_token in twilio_auth.py
 when you run your server the also do
-    go to twilio > messaging > settings > whatsapp sendbox settings > page (Twilio Sandbox for WhatsApp)  > find (Sandbox Configuration) > find -("WHEN A MESSAGE COMES IN") and put here the link of your server ie. http://www.<yourdomain>/bot
+    go to twilio > messaging > settings > whatsapp sendbox settings > page (Twilio Sandbox for WhatsApp)  > find (Sandbox Configuration) > find -("WHEN A MESSAGE COMES IN") and put here the link of your server ie. http://www.yourdomain/bot
 
 
 ## MongoDB
@@ -38,10 +38,10 @@ I use ngrok server. Server is required to connect Flask to Twilio.
 
 ### ---------------------------------------------------------------------------------------------------------------------
 ## Installation
-#### git clone https://github.com/BhavinRaichura/Bme_Whatsapp_Bot
-#### cd Bme_Whatsapp_Bot
-#### . venv/bin/activate
-#### install requirements.txt
-#### flask run
+##### git clone https://github.com/BhavinRaichura/Bme_Whatsapp_Bot
+##### cd Bme_Whatsapp_Bot
+##### . venv/bin/activate
+##### install requirements.txt
+##### flask run
 
 
