@@ -31,9 +31,9 @@ days =["mon","tue","wed","thu","fri","sat","sun"]
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
 @app.route("/")
+@app.route("/botAdmin")
 def home():
-    return "<h1>BME Bot</h1>"
-
+    return render_template('botAdmin.html')
 
 @app.route("/message/<string:msg>")
 def msg(mailscript):
@@ -154,4 +154,3 @@ def newUpdatesdb():
         db.db.class_update.insert_one(dataset)
         return "<h1>data successfully added</h1>"
     return render_template('index.html',pagetitle="New Updates")
-
