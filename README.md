@@ -4,7 +4,7 @@ I have made this bot for my college. It is a WhatsApp bot that is connected to a
 ## Requirements
 
 ## python
- python 3.x
+ python 3.xy
  function,
  oops,
  environment,
@@ -43,5 +43,7 @@ I use ngrok server. Server is required to connect Flask to Twilio.
 ##### . venv/bin/activate
 ##### install requirements.txt
 ##### flask run
+
+make sure you includes all above reqirements before run
 
 
