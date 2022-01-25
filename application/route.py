@@ -18,7 +18,7 @@ client = Client(tauth['account_sid'], tauth['auth_token'])
 # jupyter notebook data ------------------------------------------------------1
 
 
-# time table
+# daily classes data
 oe="Open elective\nhttps://meet.google.com/rjz-pghg-jrb"
 b="Biomaterials\nhttps://meet.google.com/rmb-kayq-wrf"
 m="Microelectronics & ic\nhttps://meet.google.com/acf-tnhp-fry"
