@@ -2,6 +2,9 @@
 
 ## Requirements
 
+## server
+I use ngrok server. Server is required to connect Flask to Twilio.
+
 ## python
  function,
  oops,
