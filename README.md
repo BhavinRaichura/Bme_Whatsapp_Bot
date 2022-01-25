@@ -1,12 +1,12 @@
 # Bme_Whatsapp_Bot
 
-## Required
+## Requirements
 
 ## python
-function
-oops
-environment
-database connection
+ function,
+ oops,
+ environment,
+ database connection
 
 ## Flask 
 flask basic 
