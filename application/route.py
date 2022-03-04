@@ -19,11 +19,6 @@ client = Client(tauth['account_sid'], tauth['auth_token'])
 
 
 # daily classes data
-oe="Open elective\nhttps://meet.google.com/rjz-pghg-jrb"
-b="Biomaterials\nhttps://meet.google.com/rmb-kayq-wrf"
-m="Microelectronics & ic\nhttps://meet.google.com/acf-tnhp-fry"
-t="Telemedicine\nhttps://meet.google.com/keo-qqht-tqd"
-d="BDMS\nhttps://rb.gy/wlydv3"
 
 timeSlot = ["09:30","10:30","11:30","12:30"]
 time_table ={"mon":[b,oe,m,t],"tue":[b,t,m,d],"wed":[b,oe,d,m],"thu":[d,b,m,t],"fri":[d,oe,t,m],"sat":["-noClass-","-noClass-","-noClass-","-noClass-"],"sun":["-noClass-","-noClass-","-noClass-","-noClass-"]}
