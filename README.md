@@ -1,4 +1,4 @@
-# Bme_Whatsapp_Bot
+# Whatsapp_Bot
 
 
 ## python
