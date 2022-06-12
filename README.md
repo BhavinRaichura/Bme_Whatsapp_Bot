@@ -1,11 +1,8 @@
 # Bme_Whatsapp_Bot
-I have made this bot for my college. It is a WhatsApp bot that is connected to a database that has some collection that contains information related to new updates, time table, upcoming events etc. When someone needs something he will call the bot and the bot will search for keywords and return the data accordingly.
 
-## Requirements
-Please read all the points given below
 
 ## python
- python 3.xy,
+ python 3,
  function,
  oops,
  environment,
@@ -31,7 +28,7 @@ flask basic
 • I used below given collections 
    1) classroom
    2) events
-   3) tpo
+   3) Training management team
    4) class_update
    5) users
 
